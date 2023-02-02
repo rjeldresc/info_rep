@@ -1,0 +1,49 @@
+.uiButton,
+.uiButtonSuppressed:active,
+.uiButtonSuppressed:focus,
+.uiButtonSuppressed:hover{background:#eee url(/rsrc.php/zB50F/hash/6svdixne.png) repeat 0 0;border:1px solid #999;border-bottom-color:#888;box-shadow:0 1px 0 rgba(0, 0, 0, .1);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, .1);-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, .1);color:#333;cursor:pointer;display:-moz-inline-box;display:inline-block;font-size:11px;font-weight:bold;line-height:normal !important;padding:2px 6px;*padding:3px 6px 2px;*position:relative;text-align:center;text-decoration:none;vertical-align:top;white-space:nowrap}
+.ff3.mac .uiButtonMedium{padding-bottom:1px}
+.uiButton + .uiButton{margin-left:4px}
+a.uiButtonMedium{*padding:3px 6px 4px}
+.uiButton:hover{text-decoration:none}
+.uiButton:active,
+.uiButtonDepressed{background:#ddd;border-bottom-color:#999;box-shadow:0 1px 0 rgba(0, 0, 0, .05);-moz-box-shadow:0 1px 0 rgba(0, 0, 0, .05);-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, .05)}
+.uiButton .img{vertical-align:top}
+.uiButtonMedium .img{margin-top:2px;*margin-top:1px;*margin-bottom:-2px}
+.uiButtonLarge .img{margin-top:4px;*margin-top:5px}
+.uiButton .customimg{margin-top:0;*margin-top:-1px}
+.uiButton .uiButtonText,
+.uiButton input{background:none;border:0;color:#333;cursor:pointer;display:-moz-inline-box;display:inline-block;font-family:’Lucida Grande’, Tahoma, Verdana, Arial, sans-serif;font-size:11px;font-weight:bold;margin:0;outline:none;*overflow:visible;padding:1px 0 2px;*padding:0;white-space:nowrap;_width:0}
+.uiButton input::-moz-focus-inner{border:0;padding:0}
+.uiButtonDepressed,
+.uiButtonDepressed input{cursor:default}
+.uiButtonSpecial{background-color:#69a74e;background-position:0 -96px;border-color:#3b6e22 #3b6e22 #2c5115;color:#fff}
+.uiButtonSpecial:active{background:#609946;border-bottom-color:#3b6e22}
+.uiButtonSpecial.uiButtonDisabled,
+.uiButtonSpecial.uiButtonDisabled:active{background:#69a74e;border-bottom-color:#3b6e22}
+.uiButtonConfirm{background-color:#5b74a8;background-position:0 -48px;border-color:#29447e #29447e #1a356e;color:#fff}
+.uiButtonConfirm:active{background:#4f6aa3;border-bottom-color:#29447e}
+.uiButtonConfirm.uiButtonDisabled,
+.uiButtonConfirm.uiButtonDisabled:active{background:#5b74a8;border-bottom-color:#29447e}
+.uiButtonSpecial .uiButtonText,
+.uiButtonConfirm .uiButtonText,
+.uiButtonSpecial input,
+.uiButtonConfirm input{color:#fff}
+.uiButtonDisabled,
+.uiButtonDisabled:active,
+.uiButtonDisabled .img{background:#f2f2f2;cursor:default;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity = 50)";filter:alpha(opacity = 50);opacity:.5;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
+.uiButtonDisabled input{cursor:default}
+.uiButtonDefault.uiButtonDisabled,
+.uiButtonDefault.uiButtonDisabled:active{border-color:#c8c8c8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity = 100)";filter:alpha(opacity = 100);opacity:1}
+.uiButtonDefault.uiButtonDisabled input,
+a.uiButtonDisabled .uiButtonText{color:#b8b8b8}
+.uiButtonLarge,
+.uiButtonLarge .uiButtonText,
+.uiButtonLarge input{font-size:13px}
+.uiButtonLarge{padding:2px 6px;*padding:1px 6px 2px}
+a.uiButtonLarge{*padding:3px 6px 4px}
+.uiButtonSuppressed{background:none;border-color:transparent;_border-color:#fff;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
+.uiButtonSuppressed:active,
+.uiButtonSuppressed:focus,
+.uiButtonSuppressed:hover{*padding-bottom:4px}
+.uiButtonNoText .img{margin-left:-1px;margin-right:-1px} 
